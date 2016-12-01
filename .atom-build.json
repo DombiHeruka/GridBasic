@@ -1,0 +1,12 @@
+{
+"cmd": "/Dev/BlitzMax/bin/bmk makeapp {FILE_ACTIVE_NAME}",
+"cwd": "{PROJECT_PATH}",
+
+"targets": {
+  "GUI Application": {
+    "cmd": "/Applications/BlitzMax/bin/bmk makeapp -t gui {FILE_ACTIVE}",
+    "keymap": "cmd-alt-g"
+  }
+
+}
+}
